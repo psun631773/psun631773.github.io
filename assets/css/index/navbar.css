@@ -1,0 +1,38 @@
+/* Normal Navigation Bar */
+.navbar-normal {
+    padding: 1.5em 0.5em;
+    background-color: transparent;
+    transition-duration: 0.5s;
+}
+
+.navbar-normal a {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+    transition-duration: 0.5s;
+}
+
+.navbar-normal .navbar-toggler-icon {
+    background-image: url("../../img/index/menu-light.svg");
+    transition-duration: 0.5s;
+}
+
+/* Dark Navigation Bar */
+.navbar-scroll {
+    padding: 0.5em 0.5em;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.6);
+    transition-duration: 0.5s;
+}
+
+.navbar-scroll a {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: rgb(180, 180, 180);
+    transition-duration: 0.5s;
+}
+
+.navbar-scroll .navbar-toggler-icon {
+    background-image: url("../../img/index/menu-dark.svg");
+    transition-duration: 0.5s;
+}

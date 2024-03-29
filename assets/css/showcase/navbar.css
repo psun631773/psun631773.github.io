@@ -1,0 +1,16 @@
+/* Dark Navigation Bar */
+.navbar-dark {
+    padding: 0.5em 0.5em;
+    background-color: rgba(0, 0, 0, 0.95);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-dark a {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: rgb(180, 180, 180);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../../img/index/menu-dark.svg");
+}

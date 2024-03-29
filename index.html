@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- General header -->
+<!-- The header component includes the header used by all pages.
+Page specific header components are defined in the page file. -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Framework-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="icon" href="assets/img/icon.png">
+
+  <!-- Append Page Type -->
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css" rel="stylesheet">
+
+  <!-- Conditional Include -->
+
+  <link rel="stylesheet" href="assets/css/index/navbar.css">
+  <link rel="stylesheet" href="assets/css/index/style.css">
+
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
+</head>
+<!-- Page specific header -->
+
+<head>
+  <title>Peter's Page</title>
+  <link rel="stylesheet" href="assets/css/index/timeline.css">
+  <link rel="stylesheet" href="assets/css/index/showcase.css">
+  <link rel="stylesheet" href="assets/css/index/skills.css">
+</head>
+
+<body>
+  <!-- Navigation Bar Section -->
+  <!-- Navigation Bar Section -->
+  <nav id="navbar" class="navbar navbar-expand-sm bg-navbar fixed-top navbar-normal">
+    <div class="container">
+      <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#navbar_main">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbar_main" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="navbar-item mr-5">
+            <a href="index.html#" class="nav-link">Home</a>
+          </li>
+          <li class="navbar-item mr-5">
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+
+          <li class="navbar-item mr-5">
+            <a href="resume.html" class="nav-link">Experiences</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Banner Section -->
+  <!-- <section id="banner" class="banner">
+    <div class="title-section">
+      <div style="top: 40%; position: absolute;">
+        <h1 class="title mb-4">Peter Sun</h1>
+        <p class="subtitle my-1"> Electrical and Computer Engineering </p>
+        <p class="subtitle">University of Windsor, Canada</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- About Me Section -->
+  <section id='about'>
+    <div class="about-section" style="text-align: center;">
+      <div class="container">
+        <div class="row justify-content-end">
+          <br />
+          <br />
+        
+          <div class="col-md-4" style="background-color: transparent;">
+            <br/><br/><br/>
+            <img class="portrait" src="assets/img/index/hero_img_peter.png" alt="">
+          </div>
+          <div class="col-md-8 py-md-5 pt-4 p-md-5">
+            <!-- <h2 class="section-title">I'm Peter Sun</h2> -->
+            <h2 class="section-title">Full Stack Developer <br /><br /></h2>
+            <p id="typewriter-text" style="font-size: 15px; text-align: left; white-space: pre-wrap;height: 200px;"></p>
+
+            <!-- <p style="font-size: 15px;text-align: left;">
+              Hi, I'm Peter Sun. <br />
+              <br />A solution-driven Full Stack Software Engineer with over
+              5 years of experience working at IBM, TekoAI,
+              Thousand Maple, and Huayelian.<br /><br />
+              Holds a degree in Electrical and Computer Engineering from the University of Windsor, Canada.
+            </p> -->
+            <p><a href="index.html#footer" class="general-button">Contact Me</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experiences Section -->
+  <section id='experience'>
+    <div class="container px-4 py-5 p-md-5">
+
+      <div class="text-center" style="padding-bottom: 20px;">
+        <h1 class="section-title">Experiences</h1>
+      </div>
+      <!-- Title -->
+      <div class="row text-center py-3 py-md-4 ">
+
+        <div class="col-12 col-md-3 px-0 py-3 px-md-2 py-md-0  ">
+          <div class="card mx-auto company-card">
+            <div class="company-logo d-flex" style="font-weight: 600;font-size: 25px;">
+              <!-- <img class="card-img-top" src="assets/img/index/apple.png" alt="Card image cap"> -->
+              TekoAI
+            </div>
+            <div class="card-body">
+              <h5 class="card-title job-title">Full Stack Developer</h5>
+              <p class="card-text" style="font-size: 12px;">Implemented the development of the TekoAI chatbot, from
+                concept through to implementation</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 px-0 py-3 px-md-2 py-md-0  ">
+          <div class="card mx-auto company-card">
+            <div class="company-logo d-flex" style="font-weight: 600;font-size: 25px;">
+              Huayelian
+            </div>
+            <div class="card-body">
+              <h5 class="card-title job-title">Full Stack Developer</h5>
+              <p class="card-text" style="font-size: 12px;">Played a pivotal role in the development of data bus &
+                message bus platform-level products.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 px-0 py-3 px-md-2 py-md-0  ">
+          <div class="card mx-auto company-card">
+            <div class="company-logo d-flex" style="font-weight: 600;font-size: 25px;">
+              Thousand Maple
+            </div>
+            <div class="card-body">
+              <h5 class="card-title job-title">Full Stack Developer</h5>
+              <p class="card-text" style="font-size: 12px;">Developed Warehouse and Dispatch modules for an MES and
+                financial modules for an ERP logistic System.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 px-0 py-3 px-md-2 py-md-0  ">
+          <div class="card mx-auto company-card">
+            <div class="company-logo d-flex" style="font-weight: 600;font-size: 25px;">
+              IBM
+            </div>
+            <div class="card-body">
+              <h5 class="card-title job-title">Systems Administrator </h5>
+              <p class="card-text" style="font-size: 12px;">Completed the migration and upgrade of the IBM Rational
+                product suite.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id='showcase'>
+    <div class="container px-4 py-5 p-md-5">
+      <!-- Title -->
+      <div class="text-center section-title">
+        <h1 class="section-title">Projects</h1>
+        <!-- <div class="d-inline-flex mt-3 mb-4 showcase-icon-group">
+          <a id="button-project" class="mx-2 showcase-button">Projects</a>
+        </div> -->
+      </div>
+
+
+
+
+
+    </div>
+
+    <div id="project-showcase">
+      <div class="description text-center">
+        <!-- <p>"As engineers, we were going to be in a position to change the world – not just study it." — Henry Petroski
+          </p> -->
+      </div>
+      <div class="row text-center">
+        <div class="col-12 col-md-4 px-2 py-3 px-md-1 showcase-item">
+          <img src="assets/img/index/project-1.png" alt="" class="work-itme">
+        </div>
+        <div class="col-12 col-md-4 px-2 py-3 px-md-1 showcase-item">
+          <img src="assets/img/index/project-2.png" alt="" class="work-itme">
+        </div>
+        <div class="col-12 col-md-4 px-2 py-3 px-md-1 showcase-item">
+          <img src="assets/img/index/project-3.png" alt="" class="work-itme">
+        </div>
+      </div>
+
+      <div class="text-center">
+        <a href="projects.html" class="d-inline-flex mt-3 general-button">More Projects</a>
+      </div>
+
+    </div>
+
+
+
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container px-4 py-5 p-md-5">
+      <!-- Title -->
+      <div class="text-center">
+        <h1 class="section-title">Abilities</h1>
+      </div>
+
+      <div id="skills-showcase" class="row py-3 py-md-4">
+        <div class="col-12 col-md-3 px-2 my-3 my-md-0">
+          <div class="skills-showcase">
+            <div class="skills-top" style="justify-content: center;align-items: center;text-align: center;">
+
+              <i class="fas fa-code" style="font-size: 50px;"></i>
+              <br /><br /><br />
+              <h1>Front-End</h1>
+            </div>
+            <!-- Other skill items on the left -->
+            <div class="skills-container">
+              <a class="skill-item">JavaScript</a>
+              <a class="skill-item">TypeScript</a>
+              <a class="skill-item">HTML5</a>
+              <a class="skill-item">CSS</a>
+              <a class="skill-item">Node</a>
+              <a class="skill-item">Express</a>
+              <a class="skill-item">React</a>
+              <a class="skill-item">Vue</a>
+              <a class="skill-item">Redux</a>
+              <a class="skill-item">jQuery</a>
+              <a class="skill-item">Angular</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 px-2 my-3 my-md-0">
+          <div class="skills-showcase">
+            <div class="skills-top" style="justify-content: center;align-items: center;text-align: center;">
+              <!-- 后端图标 -->
+              <i class="fas fa-server" style="font-size: 50px;"></i>
+              <br /><br /><br />
+              <h1>Back-End</h1>
+            </div>
+            <!-- Other skill items on the left -->
+            <div class="skills-container">
+              <a class="skill-item">C/C++</a>
+              <a class="skill-item">Python</a>
+              <a class="skill-item">Java</a>
+              <a class="skill-item">C#</a>
+              <a class="skill-item">HTML/CSS/Js</a>
+              <a class="skill-item">Django</a>
+              <a class="skill-item">Springboot</a>
+              <a class="skill-item">SpringCloud</a>
+              <a class="skill-item">Microservices & Distributed</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 px-2 my-3 my-md-0">
+          <div class="skills-showcase">
+
+
+            <div class="skills-top" style="justify-content: center;align-items: center;text-align: center;">
+              <i class="fas fa-network-wired" style="font-size: 50px;"></i>
+              <br /><br /><br />
+              <h1>Database & Middleware</h1>
+            </div>
+            <!-- Other skill items on the left -->
+            <div class="skills-container">
+              <a class="skill-item">MongoDB</a>
+              <a class="skill-item">Oracle</a>
+              <a class="skill-item">MySQL</a>
+              <a class="skill-item">DB2</a>
+              <a class="skill-item">Kafka</a>
+              <a class="skill-item">Redis</a>
+              <a class="skill-item">RabbitMQ</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 px-2 my-3 my-md-0">
+          <div class="skills-showcase">
+            <div class="skills-top" style="justify-content: center;align-items: center;text-align: center;">
+              <!-- 系统图标 -->
+              <i class="fas fa-cogs" style="font-size: 50px;"></i>
+              <br /><br /><br />
+              <h1>Linux & Unix System</h1>
+            </div>
+            <!-- Other skill items on the left -->
+            <div class="skills-container">
+              <a class="skill-item">Linux</a>
+              <a class="skill-item">Unix</a>
+              <a class="skill-item">Shell</a>
+              <a class="skill-item">Nginx</a>
+              <a class="skill-item">Tomcat</a>
+              <a class="skill-item">Docker</a>
+              <a class="skill-item">Azure</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer Section -->
+  <!-- Footer -->
+  <footer id="footer" class="page-footer">
+    <div class="text-center">
+      <!-- Footer Elements -->
+
+      <div class="footer-wrapper px-4 py-4">
+        <div class="footer-body">
+
+          <div class="d-block text-center">
+            <h1 class="footer-title">Let's connect!</h1>
+
+          </div>
+
+          <div class="footer-icon-bar">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="my-1 text-center d-inline-flex">
+                    <a href="mailto:psun631773@gmail.com" class="icon">
+                      <img src="assets/img/index/icon-email.svg" alt="">
+                    </a>
+                    <!-- <a href="https://www.facebook.com/boooning" class="icon">
+                      <img src="assets/img/index/icon-fb.svg" alt="">
+                    </a>
+                    <a href="https://github.com/boningdong" class="icon">
+                      <img src="assets/img/index/icon-git.svg" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/dbndbn6279/" class="icon">
+                      <img src="assets/img/index/icon-ins.svg" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/boning-dong/" class="icon">
+                      <img src="assets/img/index/icon-link.svg" alt="">
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center" style="color: #606368;">
+        © Designed by: Peter Sun
+      </div>
+      <!-- Copyright -->
+    </div>
+  </footer>
+  <!-- Footer -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="assets/js/index/main.js"></script>
+
+</body>

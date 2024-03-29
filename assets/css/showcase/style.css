@@ -1,0 +1,75 @@
+.banner {
+  width: auto;
+  height: 16rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 1px 8px rgba(5, 30, 60, 0.85);
+}
+.title-section {
+  color: white;
+  text-align: center;
+}
+.title {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 2.6rem;
+  text-shadow: 1px 1px 4px black;
+  color: #f2f2f2;
+}
+@media screen and (max-width: 468px) {
+  .title {
+    font-size: 2.2rem;
+  }
+}
+.subtitle {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 4px black;
+  color: #f2f2f2;
+}
+@media screen and (max-width: 468px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+
+/* 自定义的间距样式 */
+.custom-margin {
+  margin: 0 50px; /* 增加左右外边距 */
+}
+
+.skills-top {
+  display: flex;
+  flex-direction: column; /* 使图标和文本垂直排列 */
+  justify-content: center; /* 垂直居中内容 */
+  align-items: center; /* 水平居中内容 */
+  text-align: center; /* 文本居中，适用于h1 */
+  height: 100%; /* 根据需要调整 */
+  width: 100%; /* 根据需要调整 */
+}
+
+
+#typewriter-text {
+  font-size: 15px;
+  line-height: 1.5em; /* Example line-height, adjust as necessary */
+  text-align: left;
+  white-space: pre-wrap;
+  /* height: 180px; */
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#typewriter-text:after {
+  content: 'Hi, I\'m Peter Sun.\n\nA solution-driven Full Stack Software Engineer with over 5 years of experience working at IBM, TekoAI, Thousand Maple, and Huayelian.\n\nHolds a degree in Electrical and Computer Engineering from the University of Windsor, Canada.';
+  visibility: visible;
+  display: block;
+  height: 0;
+  overflow: hidden;
+}

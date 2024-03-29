@@ -1,0 +1,35 @@
+#experience {
+    background-color: #f6f7f8;
+}
+
+.company-card {
+    max-width: 290px;
+    border-radius: 0px;
+    border-width: 0px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 5, 0.15);
+    transition-duration: 0.2s;
+}
+
+.company-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 1px 5px 15px 1px rgba(0, 0, 5, 0.2);
+}
+
+.company-logo {
+    width: 100%;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    border-radius: inherit inherit 0px 0px;
+    background-image: linear-gradient(120deg, #fefefe 0%, #eceff0 100%);
+}
+
+.company-logo img {
+    width: 60%;
+    height: auto;
+}
+
+.job-title {
+    font-size: 17px;
+}
+

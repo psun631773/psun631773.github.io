@@ -1,0 +1,183 @@
+<!-- General header -->
+<!-- The header component includes the header used by all pages.
+Page specific header components are defined in the page file. -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Framework-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="icon" href="../assets/img/icon.png">
+
+  <!-- Append Page Type -->
+
+
+
+
+  <!-- Conditional Include -->
+
+  <link rel="stylesheet" href="../assets/css/showcase/style.css">
+  <link rel="stylesheet" href="../assets/css/showcase/navbar.css">
+
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
+</head>
+<!-- Page specific header -->
+
+<head>
+
+  <title>Project - AR Domino</title>
+
+  <link rel="stylesheet" href="../assets/css/showcase/projects.css">
+  <link rel="stylesheet" href="../assets/sass/project-posts.css">
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <!-- Navigation Bar Section -->
+  <nav id="navbar" class="navbar navbar-expand-sm navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#navbar_main">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbar_main" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="navbar-item mr-5">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="navbar-item mr-5">
+            <a href="../projects.html" class="nav-link">Projects</a>
+          </li>
+
+          <li class="navbar-item mr-5">
+            <a href="../resume.html" class="nav-link">Experiences</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner Section -->
+
+  <section id="banner" class="banner" style="background-image: url('../assets/img/showcase/projects-banner.jpg');">
+
+
+    <div class="title-section container" style="position: relative; top: 10px;">
+
+
+
+      <h1 class="post-title mb-1">Yujia data bus and message bus platform</h1>
+
+
+
+
+      <h2 class="post-subtitle">Updated: July 2021</h2>
+
+
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-12">
+
+
+          <span class="badge project-tag"
+            style="background-image: linear-gradient(to right, #7c3bb8 5%, #9a33b4 100%);">
+            Java & SpringBoot & Mybatis
+          </span>
+
+
+          <span class="badge project-tag"
+            style="background-image: linear-gradient(to right, #009ea0 5%, #41c4ba 100%);">
+            MongoDB
+          </span>
+
+
+          <span class="badge project-tag"
+            style="background-image: linear-gradient(to right, #D60E81 5%, #E747A2 100%);">
+            Kafka & RabbitMQ
+          </span>
+
+
+          <span class="badge project-tag"
+            style="background-image: linear-gradient(to right, #0180bd 5%, #00acb4 100%);">
+            docker
+          </span>
+          <span class="badge project-tag"
+            style="background-image: linear-gradient(to right, #7c3bb8 5%, #9a33b4 100%);">
+            datawarehouse
+          </span>
+        </div>
+      </div>
+
+
+      <!-- 
+      <div class="row d-block justify-content-center">
+        <a class="btn btn-dark external-link" role="button" href="https://github.com/boningdong/AR-Domino">Project
+          Link</a>
+      </div> -->
+
+    </div>
+  </section>
+
+
+  <!-- Cards Section -->
+  <section class="container mb-5 pb-4">
+    <div class="px-3 px-md-5">
+      <div class="px-md-5 content-area">
+
+        <h1 id="background">Proejct Overview</h1>
+        <p>The Yujia Message Bus serves as a bridge connecting different Kafka clusters. By configuring various Kafka
+          connectors, it extracts data from databases or message middleware data sources, achieving data message
+          aggregation. Additionally, its drag-and-drop interface facilitates ease of use for developers. The platform
+          supports real-time stream computing, making it a comprehensive cross-platform product. Utilizing a technology
+          stack that includes Kafka, RabbitMQ, RocketMQ, Redis, Spring Boot, React, and more.</p>
+
+        <h1 id="demo-video">Porject Video</h1>
+        <div class="row justify-content-center">
+          <div class="col-12 p-2">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/XIJKlMxsuzQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+
+        <h1 id="implementation">Contributions</h1>
+        <p>As a full-stack engineer, I played a significant role in the prototype design, feature development,
+          debugging, and deployment of this product.</p>
+
+        <p>My contributions included creating functionalities to configure, start, stop, restart, and modify
+          configurations of Kafka connectors via API, as well as logging their histories. Additionally, I routinely
+          checked the health of Kafka connectors, restarting any that were malfunctioning.</p>
+
+        <p> In cases where a restart failed, I implemented SMS alerts as a fallback. Furthermore, by leveraging Kafka
+          Streams, I performed filtering and cleansing of data sources to ensure data integrity and relevance etc.</p>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="../assets/js/showcase/projects.js"></script>
+  <script src="../assets/js/showcase/script.js"></script>
+
+</body>
