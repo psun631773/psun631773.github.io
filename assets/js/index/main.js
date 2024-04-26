@@ -50,7 +50,7 @@ $("#button-project").click(function () {
 
 const typewriterText = `Hi, I'm Peter Sun.
 
-A solution-driven Full Stack Software Engineer with over 5 years of experience working at IBM, TekoAI, Thousand Maple, and Huayelian.
+A solution-driven Full Stack Software Engineer with over 5 years of experience working at IBM, TekoAI, Guili Investment, and Huayelian.
 
 Holds a degree in Electrical and Computer Engineering from the University of Windsor, Canada.`;
 
